@@ -15,7 +15,8 @@ Loop
 
 Start:
 ;Open invisible IE window - interface, allows for easy management if you have this running on multiple VMs
-auth:= OpenInvisible(" ");Website from which u can manage the bot
+;Website from which u can manage the bot
+auth:= OpenInvisible(" ")
 Loop{
 	;Limit auth load time
 	authMaxLoad:= A_TickCount+4000
