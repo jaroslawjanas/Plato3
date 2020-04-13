@@ -7,7 +7,7 @@ A bot for spamming socrative.com
 
 ## About Plato
 
-Plato3 is an AHK bot that join a specified room on socrative.com enters a random StudendID and selects random answers. It takes around 4.03 seconds for the program to do a complete cycle. It supports both Instant Feedback and Open Navigation modes, as well as there internal features
+Plato3 is an AHK bot that joins a specified room on socrative.com enters a random StudendID and selects random answers. It takes around 4.03 seconds for the program to do a complete cycle. It supports both Instant Feedback and Open Navigation modes, as well as these internal features
 * Require Names (must be on for bot to work)
 * Shuffle Questions 
 * Shuffle Answers
@@ -41,7 +41,7 @@ Before you run Plato3 you need to configure it.
     <p>Room name: <span id="roomname">ZDUKAUUZW</span></p>
     </body>
     ```
-    There are three commands that are implemented, they don't server much of a purpose outside of system resource management and  pausing the bot:
+    There are three commands that are implemented, they don't serve much of a purpose outside of system resource management and pausing the bot:
        * start - starts the bot, can be started before the room is opened, the bot will simply restart itself every 8 seconds until a quiz starts, it will use up slightly more system resources.
        * pause - pauses the bot, it will check every 4 second for new commands
        * stop - same as pause but the bot will wait 60 seconds
